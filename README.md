@@ -30,4 +30,4 @@ The following algorithm is followed by most SQL languages (excluding PostgreSQL[
    5. Append 3 zeros if result contains less than 3 digits. Remove all except first letter and 3 digits after it (This step same as [4.] in explanation above).
    
 
-This code is an algorithm that calculates the soundex of every vocabulary at Apple.com. For this, I take all URL vocabulary at this site by XML-sitemaps.com.
+This code is an algorithm that calculates the soundex of every vocabulary at Apple.com . For this, I take all URL vocabulary at this site by XML-sitemaps.com
