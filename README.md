@@ -1,5 +1,7 @@
 # soudex
-This is the project of the Basics of research information and Web of my university. 
+This is the project for the Basics of research information and Web for my university. 
+
+This code is an algorithm that replace the soundex of every vocabulary at Apple.com . For this, I take all URL vocabulary at this site by XML-sitemaps.com
 
 
 Soundex is a phonetic algorithm for indexing names by sound, as pronounced in English. The goal is for homophones to be encoded to the same representation so that they can be matched despite minor differences in spelling. The algorithm mainly encodes consonants; a vowel will not be encoded unless it is the first letter. Soundex is the most widely known of all phonetic algorithms (in part because it is a standard feature of popular database software such as IBM Db2, PostgreSQL, MySQL, SQLite, Ingres, MS SQL Server, Oracle. Snowflake and SAP ASE.) Improvements to Soundex are the basis for many modern phonetic algorithms
@@ -29,5 +31,3 @@ The following algorithm is followed by most SQL languages (excluding PostgreSQL[
    4. If the saved letter's digit is the same as the resulting first digit, remove the digit (keep the letter).
    5. Append 3 zeros if result contains less than 3 digits. Remove all except first letter and 3 digits after it (This step same as in explanation above).
    
-
-This code is an algorithm that calculates the soundex of every vocabulary at Apple.com . For this, I take all URL vocabulary at this site by XML-sitemaps.com
