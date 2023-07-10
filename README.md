@@ -1,5 +1,4 @@
-# soudex
-This is the project for the Basics of research information and Web for my university. 
+# soudex. 
 
 This code is an algorithm that replace the soundex of every vocabulary at Apple.com . For this, I take all URL vocabulary at this site by XML-sitemaps.com
 
